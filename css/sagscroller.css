@@ -1,0 +1,39 @@
+.sagscroller{
+width: 200px;  
+height:250px;
+overflow:hidden;
+position:relative;
+border:1px solid black;
+border-radius: 4px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px; 
+}
+
+.sagscroller a{
+font-weight:bold;
+}
+
+.sagscroller ul{
+	position:absolute;
+	margin:0;
+	padding:0;
+	background:#666;
+	list-style:none;
+	width: 241px;
+	height: 303px;
+}
+
+.sagscroller ul li{
+display:block;
+}
+
+.sagscroller ul li .rsscontent{ /*div containing body of each RSS entry*/
+font-size:90%;
+}
+
+.sagscroller ul li .rsslabel{ /*div containing label of each RSS entry*/
+margin-top:5px;
+background: #eee;
+font-size:12px;
+clear: both;
+}

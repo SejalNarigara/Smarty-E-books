@@ -1,0 +1,10 @@
+<?php
+session_start();
+if(isset($_SESSION[admin]))
+{
+	header("location:fb1.php");
+}
+else
+{
+	header("location:../index.php");
+}
